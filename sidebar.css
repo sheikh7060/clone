@@ -43,3 +43,11 @@ body{
     padding: 3px;
     border-radius: 2px;
 }
+
+@media (max-width:600px){
+
+    .bosscon{
+
+        padding-left: 60px;
+    }
+}
