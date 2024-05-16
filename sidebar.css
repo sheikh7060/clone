@@ -1,0 +1,45 @@
+.sidebar{
+
+    position: fixed;
+    background-color: blueviolet;
+    top:70px;
+    left: 0;
+    bottom: 0;
+    width: 90px;
+}
+.bosscon{
+
+    padding-left: 90px;
+    
+}
+body{
+
+    right: 20px;
+}
+
+.headerbox{
+
+    background-color: white;
+    z-index: 100;
+
+    
+}
+    
+
+.contai{
+
+    position: relative;
+
+  
+}
+
+.v-time{
+
+    position: absolute;
+    bottom:10px;
+    right: 10px;
+    background-color: black;
+    color: white;
+    padding: 3px;
+    border-radius: 2px;
+}

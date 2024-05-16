@@ -1,0 +1,231 @@
+.headerbox{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 22px;
+    position: fixed;
+    top:0px;
+    left: 0px;
+    right: 0px;
+    height: 25px;
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style:solid;
+    border-bottom-color: rgb(230, 228, 228);
+    
+}
+
+
+
+
+.sec1{
+
+    display: flex;
+
+    flex: 1;
+  
+    
+
+    
+
+
+}
+
+.sec2{
+ 
+    flex: 2;
+    display: flex;
+    
+ 
+
+}
+
+.sec3{
+
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0px;
+    flex-shrink: 0;
+    align-items: center;
+
+
+
+}
+.hamburger-menu{
+
+    width: 30px;
+    height: 20px;
+}
+
+.youtube-logo{
+
+    height: 17px;
+    margin-left: 18px;
+    
+}
+
+.search{
+    flex: 1;
+    height: 40px;
+    width: 0;
+    padding-left: 10px;
+    font-size: 15px;
+    border: 1px solid rgb(218, 210, 210);
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    
+    
+}
+
+
+.searchoption{
+
+    height: 20px;
+    width: 60px;
+    padding-bottom: 6px;
+    
+    padding-top: 12px;
+    
+    border:1px solid rgb(218, 210, 210);
+    margin-right: -10px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.voice-search-icon{
+
+    
+    display: flex;
+    margin-top:5px;
+    margin-left: 20px;
+    height: 22px;
+    width: 22px;
+    padding: 5px;
+    background-color: rgb(245, 241, 241);
+    border-radius: 50px;
+   
+    
+}
+
+.uploadicon{
+
+    height: 25px;
+}
+
+.apps-icon{
+
+    height: 25px;
+
+
+}
+
+.noti{
+
+    height: 25px;
+
+
+}
+
+.profile2{
+    height: 25px;
+    width: 25px;
+    border-radius: 50px;
+
+   
+
+
+
+}
+
+
+
+.img{
+
+    width: 339px;
+
+
+}
+
+.con{
+
+    width: 339px;
+    margin-left: 20px;
+}
+
+.flexboxone{
+
+
+    display:flex;
+}
+
+.flexboxtwo{
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 60px;
+  
+   
+}
+
+.profile{
+
+    border-radius: 50px;
+    margin-top: 10px;
+    width: 50px;
+    margin-left: 0px;
+   
+    
+}
+
+.title{
+
+    width: 210px;
+    margin-left: 10px;
+    margin-top: 15px;
+    font-family: 68px;
+    color: black;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.name,.data{
+
+    color:rgb(124, 124, 124);
+}
+
+
+.flexboxthree{
+
+    display:flex;
+   
+
+
+}
+
+.flexboxfour{
+
+    padding-left: 60px;
+
+
+}
+
+.bosscon{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 80px;
+    column-gap: 10px;
+    row-gap: 20px;
+    padding-right: 20px;
+   
+}
+
+@media only screen and (max-width: 600px) {
+    .bosscon {
+      display: grid;
+      grid-template-columns: 1fr;
+      margin-left: 30px;
+      gap: 20px 20px;
+    }
+  }
