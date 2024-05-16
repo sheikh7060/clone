@@ -1,0 +1,44 @@
+.item>img{
+
+    height: 25px;
+
+    
+    
+}
+
+.sidebar{
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+  
+   width: 120px;
+   font-size: 12px;
+   
+   
+}
+
+.item>div{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+       
+}
+
+.item{
+
+    padding-top: 30px;
+}
+
+.sidebar>div:hover{
+
+    background-color: rgb(240, 236, 236);
+    padding: 20px;
+    transition: background-color 0.01s;
+    
+
+}

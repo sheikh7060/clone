@@ -1,7 +1,6 @@
 .sidebar{
 
     position: fixed;
-    background-color: blueviolet;
     top:70px;
     left: 0;
     bottom: 0;
@@ -9,9 +8,12 @@
 }
 .bosscon{
 
-    padding-left: 90px;
+    padding-left: 120px;
     
 }
+
+
+
 body{
 
     right: 20px;
@@ -48,6 +50,6 @@ body{
 
     .bosscon{
 
-        padding-left: 60px;
+        padding-left: 80px;
     }
 }
