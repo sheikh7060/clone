@@ -1,0 +1,20 @@
+.noti_icon_container{
+
+    position: relative;
+
+    
+}
+
+.noti_count{
+
+    position: absolute;
+    background-color: rgb(226, 43, 43);
+    top: -4;
+    right: -5;
+    height: 19px;
+    width: 19px;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+   
+}

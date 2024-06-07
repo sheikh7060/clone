@@ -5,6 +5,7 @@
     left: 0;
     bottom: 0;
     width: 90px;
+    z-index: 2;
 }
 .bosscon{
 
