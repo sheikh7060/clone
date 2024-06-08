@@ -1,0 +1,108 @@
+.search_con{
+
+    position: relative;
+    
+}
+
+.search_con .ttip{
+
+    background-color: rgb(70, 60, 60);
+    color: white;
+    padding: 8px 6px 8px 6px;
+    border-radius: 3px;
+    font-size: 14px;
+    position: absolute;
+    bottom: -55;
+    left: 10;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    
+}
+
+.search_con:hover .ttip{
+    opacity: 1;
+}
+
+.voice_con{
+
+    position: relative;
+
+
+}
+
+.ttipvoice{
+
+    background-color: rgb(70, 60, 60);
+    color: white;
+    width:135px;
+    padding: 5px 4px 5px 4px;
+    border-radius: 3px;
+    font-size: 14px;
+    position: absolute;
+    bottom: -55;
+    opacity: 0;
+    transition: opacity 0.15s;
+    left: -10;
+    pointer-events: none;
+}
+
+.voice_con:hover .ttipvoice{
+    opacity: 1;
+}
+
+.upload_con{
+
+    position: relative;
+}
+
+.ttipupload{
+
+    background-color: rgb(70, 60, 60);
+    color: white;
+    
+    padding: 8px 5px 8px 5px;
+    border-radius: 3px;
+    font-size: 14px;
+    position: absolute;
+    bottom: -55;
+    opacity: 0;
+    transition: opacity 0.15s;
+    left: -10;
+    pointer-events: none;
+
+
+}
+
+.upload_con:hover .ttipupload{
+    opacity: 1;
+}
+
+.apps_con{
+
+    position: relative;
+}
+
+.ttipapps{
+
+    background-color: rgb(70, 60, 60);
+    color: white;
+    width: 90px;
+    padding: 8px 5px 8px 5px;
+    border-radius: 3px;
+    font-size: 14px;
+    position: absolute;
+    bottom: -55;
+    opacity: 0;
+    transition: opacity 0.15s;
+    left: -30;
+    pointer-events: none;
+
+
+
+}
+
+.apps_con:hover .ttipapps{
+
+    opacity: 1;
+}
